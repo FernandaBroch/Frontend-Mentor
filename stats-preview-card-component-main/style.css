@@ -1,0 +1,97 @@
+body {
+  background-color: hsl(233, 47%, 7%);
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+}
+h1, h3{
+  font-family: 'Inter', sans-serif;
+  margin: auto;
+}
+
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 25px;
+  padding: 0 10px 0 10px;
+}
+
+.container{
+  padding: 50px 10px 50px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+.card {
+  max-width: 375px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  border-radius: 12px;
+  background-color: hsl(244, 38%, 16%);
+  
+}
+
+.card-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 100%;
+}
+.card-content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+}
+
+.card-content span{
+  color: hsl(277, 64%, 61%);
+}
+.card-small{
+  margin: 15px 0 15px 0;
+  
+}
+.card-small span{
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 80%;
+}
+.border-radius {
+  -webkit-border-top-left-radius: 12px;
+  -webkit-border-top-right-radius: 12px;
+  -moz-border-radius-topleft: 12px;
+  -moz-border-radius-topright: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.image {
+  background: url("./images/image-header-mobile.jpg");
+  background-size: cover;
+  min-height: 200px;
+  min-width: 100%;
+  border: 1px black solid;
+  
+}
+
+.cover-image {
+  background: hsla(277, 64%, 61%, 0.514);
+  overflow: hidden;
+  height: 100%;
+  z-index: 2;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.uppercase{
+  text-transform: uppercase;
+}
