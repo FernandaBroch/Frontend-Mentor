@@ -1,0 +1,93 @@
+.card {
+  padding: 40px;
+}
+
+.card h1 {
+  font-size: 250%;
+  text-transform: uppercase;
+}
+
+.card-context {
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 150%;
+}
+
+.orange {
+  background-color: #e38826;
+}
+
+.cyan-dark {
+  background-color: #006970;
+}
+
+.cyan-very-dark {
+  background-color: #004241;
+}
+
+.orange button {
+  color: #e38826;
+}
+
+.cyan-dark button {
+  color: #006970;
+}
+
+.cyan-very-dark button {
+  color: #004241;
+}
+
+.card-first {
+  border-start-start-radius: 10px;
+  border-start-end-radius: 10px;
+}
+
+.card-last {
+  border-end-start-radius: 10px;
+  border-end-end-radius: 10px;
+}
+
+body {
+  font: 100% "Lexend Deca", sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+main {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+h1 {
+  font: 100% "Big Shoulders Display", cursive;
+}
+
+button {
+  cursor: pointer;
+  background-color: white;
+  font: 100% "Lexend Deca", sans-serif;
+  padding: 15px 30px;
+  border-style: none;
+  border-color: white;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #004241;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=style.css.map */
