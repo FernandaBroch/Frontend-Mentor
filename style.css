@@ -1,0 +1,7 @@
+.parallax-container {
+  height: 250px;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating){
+  color: rgb(45, 150, 236);
+}
