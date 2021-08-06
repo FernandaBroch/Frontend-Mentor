@@ -6,14 +6,13 @@ body {
 }
 h1, h3{
   font-family: 'Inter', sans-serif;
-  margin: auto;
 }
 
 p{
   color: hsla(0, 0%, 100%, 0.75);
   line-height: 25px;
   padding: 0 10px 0 10px;
-
+  
 }
 
 .container{
@@ -143,5 +142,13 @@ p{
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
+  }
+}
+@media (min-width: 1440px){
+  p{
+    font-size: 100%;
+  }
+  .container{
+    margin-top: 100px;
   }
 }
