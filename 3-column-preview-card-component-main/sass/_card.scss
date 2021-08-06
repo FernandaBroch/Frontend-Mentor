@@ -1,0 +1,45 @@
+.card{
+  padding: 40px;
+}
+.card h1{
+  font-size: 250%;
+  text-transform: uppercase;
+}
+.card-context{
+  color: $transparent-white;
+  line-height: 150%;
+}
+.orange {
+  background-color: $orange-bright;
+}
+.cyan-dark {
+  background-color: $cyan-dark;
+}
+.cyan-very-dark {
+  background-color: $very-dark-cyan;
+}
+
+.orange {
+  button {
+    color: $orange-bright;
+  }
+}
+
+.cyan-dark {
+  button {
+    color: $cyan-dark;
+  }
+}
+.cyan-very-dark {
+  button {
+    color: $very-dark-cyan;
+  }
+}
+.card-first{
+  border-start-start-radius: 10px;
+  border-start-end-radius: 10px;
+}
+.card-last{
+  border-end-start-radius: 10px;
+  border-end-end-radius: 10px;
+}
