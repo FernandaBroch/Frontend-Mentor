@@ -1,4 +1,5 @@
-@import "./variables.scss";
-@import "./_card.scss";
+@import "./variables.scss"; //must be the first file
+
 @import "./_main.scss";
+@import "./_card.scss";
 @import "./_attribution.scss";

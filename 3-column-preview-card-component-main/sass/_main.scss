@@ -3,7 +3,7 @@ body {
   font-size: 15px;
   color: $white;
 }
-main{
+main {
   margin-top: 80px;
   margin-bottom: 80px;
 }
@@ -11,7 +11,7 @@ h1 {
   font: 100% $font-big;
 }
 button {
-  cursor:pointer;
+  cursor: pointer;
   background-color: $white;
   font: 100% $font-lexend;
   padding: 15px 30px;
@@ -27,4 +27,16 @@ button {
   justify-content: center;
   align-items: center;
   padding: 20px;
+}
+
+@media (min-width: 986px) {
+  body{
+    font-size: 80%;
+  }
+  button{
+    margin-top: 50px;
+  }
+  .container {
+    flex-wrap: nowrap;
+  }
 }
